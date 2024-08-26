@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-20=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Jogo da Cobrinha</title>
+  <script defer src="game.bundle.js"></script></head>
+  <body>
+    <!--Criando o texto "Tamanho"-->
+    <h1 id="tamanho">Tamanho: 0</h1>
+    <!--Criando a area onde vai ficar o nome do player-->
+    <h2 id="nome"></h2>
+    <h3 id="titulo">Jogo da Cobrinha</h3>
+    <!--Criando o canvas do jogo-->
+    <canvas id="jogo" width="1200" height="600"></canvas>
+    <!-- Colocando os sons do jogo -->
+    <audio id="comer" src="./assets/sounds/comer.mp3"></audio>
+    <audio id="morte" src="./assets/sounds/morte.mp3"></audio>
+    <audio id="parabens" src="./assets/sounds/parabens.mp3"></audio>
+    <script src="game.bundle.ts"></script>
+  </body>
+</html>
